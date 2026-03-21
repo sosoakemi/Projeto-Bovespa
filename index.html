@@ -196,8 +196,10 @@
     padding:0 2.5rem; height:56px;
     border-bottom:1px solid rgba(245,200,66,0.18);
   }
+  .logo-bar-inner { display:flex; align-items:center; gap:1.25rem; }
   .logo-marcos { height:38px; width:auto; object-fit:contain; opacity:.98; }
   .logo-unasp  { height:38px; width:auto; object-fit:contain; opacity:.98; }
+  .logo-ecbahia { height:38px; width:auto; object-fit:contain; opacity:.98; }
 
   @media(max-width:900px){
     .comm-grid,.moeda-grid { grid-template-columns:1fr 1fr; }
@@ -218,8 +220,11 @@
 <body>
 
 <div class="logo-bar">
-  <img src="img/logo-marcos.png" alt="Marcos Matico" class="logo-marcos">
-  <img src= "img/logo-unasp.png" alt="UNASP" class="logo-unasp">
+  <div class="logo-bar-inner">
+    <img src="img/logo-marcos.png" alt="Marcos Matico" class="logo-marcos">
+    <img src="img/logo-unasp.png" alt="UNASP" class="logo-unasp">
+    <img src="img/ECBahia-logo.png" alt="EC Bahia" class="logo-ecbahia">
+  </div>
 </div>
 <nav>
   <div class="nav-logo">BOVESPA</div>
@@ -671,6 +676,8 @@
     <img src="img/logo-marcos.png" alt="Marcos Matico" style="height:44px;width:auto;object-fit:contain;opacity:.98">
     <div style="width:1px;height:36px;background:rgba(245,200,66,0.2)"></div>
     <img src="img/logo-unasp.png" alt="UNASP" style="height:38px;width:auto;object-fit:contain;opacity:.98">
+    <div style="width:1px;height:36px;background:rgba(245,200,66,0.2)"></div>
+    <img src="img/ECBahia-logo.png" alt="EC Bahia" style="height:38px;width:auto;object-fit:contain;opacity:.98">
   </div>
   <div class="logo">BOVESPA</div>
   <div style="margin:1.4rem auto;padding:1rem 2rem;background:rgba(245,200,66,0.05);border:1px solid rgba(245,200,66,0.15);border-radius:12px;display:inline-block">

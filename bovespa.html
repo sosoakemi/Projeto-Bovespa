@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bovespa — A Bolsa que Move o Brasil</title>
+<title>B3 - Brasil, Bolsa, Balcão</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -23,7 +23,7 @@
   body { background:var(--dark); color:var(--text); font-family:'Sora',sans-serif; font-size:16px; line-height:1.7; overflow-x:hidden; }
 
   nav { position:fixed; top:56px; width:100%; z-index:999; background:rgba(8,12,23,0.95); backdrop-filter:blur(14px); border-bottom:1px solid var(--border); padding:0 2.5rem; display:flex; align-items:center; justify-content:space-between; height:62px; }
-  .nav-logo { font-family:'Bebas Neue',sans-serif; font-size:1.5rem; color:var(--gold); letter-spacing:3px; }
+  .nav-logo { font-family:'Bebas Neue',sans-serif; font-size:clamp(0.78rem,2.2vw,1.2rem); color:var(--gold); letter-spacing:1.2px; line-height:1.15; max-width:min(100%, 22rem); }
   .nav-links { display:flex; gap:1.8rem; list-style:none; }
   .nav-links a { color:var(--muted); text-decoration:none; font-size:.72rem; font-weight:600; letter-spacing:1.5px; text-transform:uppercase; transition:color .2s; }
   .nav-links a:hover { color:var(--gold); }
@@ -227,7 +227,7 @@
   </div>
 </div>
 <nav>
-  <div class="nav-logo">BOVESPA</div>
+  <div class="nav-logo">B3 - Brasil, Bolsa, Balcão</div>
   <ul class="nav-links">
     <li><a href="#oqueé">O que é</a></li>
     <li><a href="#commodities">Commodities</a></li>
@@ -278,8 +278,8 @@
 <!-- O QUE É -->
 <section id="oqueé" class="reveal">
   <div class="slabel">Introdução</div>
-  <h2 class="stitle">O QUE É A BOVESPA?</h2>
-  <p class="sdesc">A Bovespa, hoje integrada à B3, é o mercado onde empresas captam dinheiro e investidores buscam crescimento.</p>
+  <h2 class="stitle">O QUE É A B3?</h2>
+  <p class="sdesc">A B3 (Brasil, Bolsa, Balcão) é o mercado onde empresas captam dinheiro e investidores buscam crescimento.</p>
   <div class="intro-grid">
     <div class="ic ic-tall" data-img="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80" data-fb="linear-gradient(135deg,#0d1f3c,#162a50)">
       <div class="fb" style="display:none"></div><div class="ov-top"></div>
@@ -392,7 +392,7 @@
 <!-- MOEDAS -->
 <section id="moedas" class="reveal">
   <div class="slabel">Câmbio & Forex</div>
-  <h2 class="stitle">PRINCIPAIS MOEDAS<br>NA BOVESPA</h2>
+  <h2 class="stitle">PRINCIPAIS MOEDAS<br>NA B3</h2>
   <p class="sdesc">As moedas são protagonistas no mercado. A variação do câmbio afeta ações, commodities e toda a economia.</p>
   <div class="moeda-grid">
     <div class="ic ic-moeda" data-img="https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=700&q=80" data-fb="linear-gradient(135deg,#0d2000,#153300)">
@@ -473,7 +473,7 @@
 <!-- MUNDO -->
 <section id="mundo" class="reveal">
   <div class="slabel">Conexão Global</div>
-  <h2 class="stitle">A BOVESPA<br>E O MUNDO</h2>
+  <h2 class="stitle">A B3<br>E O MUNDO</h2>
   <p class="sdesc">A B3 não existe numa ilha. Quando a bolsa de Nova York espirra, o Brasil sente. As economias estão todas interligadas.</p>
   <div class="ic ic-world" data-img="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1400&q=80" data-fb="linear-gradient(135deg,#0d1f3c,#162a50)">
     <div class="fb" style="display:none"></div><div class="ov-side"></div>
@@ -484,7 +484,7 @@
     </div>
   </div>
   <div class="bolsas-grid">
-    <div class="bolsa-card"><span class="bolsa-flag">🇧🇷</span><div class="bolsa-name">B3 — Bovespa</div><div class="bolsa-country">São Paulo, Brasil</div><div class="bolsa-desc">A maior da América Latina. Índice: Ibovespa.</div></div>
+    <div class="bolsa-card"><span class="bolsa-flag">🇧🇷</span><div class="bolsa-name">B3 — Brasil, Bolsa, Balcão</div><div class="bolsa-country">São Paulo, Brasil</div><div class="bolsa-desc">A maior da América Latina. Índice: Ibovespa.</div></div>
     <div class="bolsa-card"><span class="bolsa-flag">🇺🇸</span><div class="bolsa-name">NYSE</div><div class="bolsa-country">Nova York, EUA</div><div class="bolsa-desc">A maior do mundo. S&P 500 é o principal benchmark global.</div></div>
     <div class="bolsa-card"><span class="bolsa-flag">🇺🇸</span><div class="bolsa-name">NASDAQ</div><div class="bolsa-country">Nova York, EUA</div><div class="bolsa-desc">Foco em tecnologia. Apple, Google e Amazon ditam o tom.</div></div>
     <div class="bolsa-card"><span class="bolsa-flag">🇨🇳</span><div class="bolsa-name">Shanghai SE</div><div class="bolsa-country">Xangai, China</div><div class="bolsa-desc">Maior da Ásia. Afeta diretamente nossas commodities.</div></div>
@@ -679,13 +679,15 @@
     <div style="width:1px;height:36px;background:rgba(245,200,66,0.2)"></div>
     <img src="img/ECBahia-logo.png" alt="EC Bahia" style="height:38px;width:auto;object-fit:contain;opacity:.98">
   </div>
-  <div class="logo">BOVESPA</div>
+  <div class="logo">B3 - Brasil, Bolsa, Balcão</div>
   <div style="margin:1.4rem auto;padding:1rem 2rem;background:rgba(245,200,66,0.05);border:1px solid rgba(245,200,66,0.15);border-radius:12px;display:inline-block">
     <div style="font-size:.6rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:rgba(245,200,66,.65);margin-bottom:.55rem">Turma 31BTI · Integrantes do Grupo</div>
     <div style="display:flex;gap:1.4rem;flex-wrap:wrap;justify-content:center;align-items:center">
+      <span style="font-size:.84rem;color:rgba(232,234,240,.82)">Gabriel José da Silva</span>
+      <span style="color:rgba(245,200,66,.3)">·</span>
       <span style="font-size:.84rem;color:rgba(232,234,240,.82)">Lara Oliveira de Freitas</span>
       <span style="color:rgba(245,200,66,.3)">·</span>
-      <span style="font-size:.84rem;color:rgba(232,234,240,.82)">Sophia Akemi Silva Itioka Itioka</span>
+      <span style="font-size:.84rem;color:rgba(232,234,240,.82)">Sophia Akemi Silva Itioka</span>
       <span style="color:rgba(245,200,66,.3)">·</span>
       <span style="font-size:.84rem;color:rgba(232,234,240,.82)">Sophia Santos de Santana</span>
     </div>
